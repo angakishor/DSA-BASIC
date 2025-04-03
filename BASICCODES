@@ -1,0 +1,23 @@
+let arr=[1,2,3,4,5]
+arr.push(6)
+arr.pop()
+arr.unshift(0)
+arr.shift()
+for(let i=0;i<=4;i++){
+    console.log(arr[i]);
+}
+
+let index=arr.indexOf(3)
+console.log(index)
+console.log(arr)
+arr.splice(3,0,0);
+arr.splice(3,1)
+console.log(arr)
+let arrr=[1,2,3,4,5]
+min=arrr[0]
+for(let j=0;j<=4;j++){
+    if(arrr[j]<min){
+        min=arrr[j]
+    }   
+}
+console.log(min)
