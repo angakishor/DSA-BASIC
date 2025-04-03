@@ -3,8 +3,8 @@ function sumtwosorted(arr,target){
     while(left<right){
         let sum=arr[left]+arr[right];
         
-        if(sum===target) return (arr[lift],arr[right]);
-        else if(sum<target) lift++;
+        if(sum===target) return (arr[left],arr[right]);
+        else if(sum<target) left++;
         else right--;
     }
     return [];
